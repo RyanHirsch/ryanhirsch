@@ -19,7 +19,8 @@
     "test:watch": "jest --watch",
     "dev": "ts-node -r tsconfig-paths/register src/index.ts",
     "dev:watch": "ts-node-dev --respawn --no-notify src/index.ts",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "demo": "docker run --rm -it node:10-alpine npx ryanhirsch"
   },
   "devDependencies": {
     "@types/jest": "^23.3.11",
