@@ -1,0 +1,1 @@
+console.log("https://ryanhirsch.com | Ryan.Hirsch@gmail.com | @RyanHirsch")
